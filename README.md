@@ -19,6 +19,9 @@ deactivate source
 export CMAKE_PREFIX_PATH=[anaconda root directory]
 conda install numpy pyyaml mkl setuptools cmake gcc cffi
 conda install -c soumith magma-cuda80
+# For cuda8.0 + python 2.7
+pip install https://s3.amazonaws.com/pytorch/whl/cu80/torch-0.1.6.post22-cp27-none-linux_x86_64.whl 
+# For cuda8.0 + python 3.5
 pip install https://s3.amazonaws.com/pytorch/whl/cu80/torch-0.1.6.post22-cp35-cp35m-linux_x86_64.whl
 pip install torchvision
 ```
