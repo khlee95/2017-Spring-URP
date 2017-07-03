@@ -9,7 +9,7 @@ Following works are advised in RCV lab in KAIST.
 ```shell
 conda updata conda
 conda create -n py35 python=3.5 anaconda
-activate py35
+source activate py35
 conda install opencv
 deactivate source
 ```
